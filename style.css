@@ -16,7 +16,9 @@
 body{
     background-color: var(--lightblue);
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    min-height: 100vh;
 }
 *{
     align-items: center;
@@ -106,7 +108,7 @@ body{
     padding-top: 12px;
 }
 
-.price .btn {
+.price .btn{
     align-items: center;
     background-color: var(--lightgreen);
     border-radius: 7px;
@@ -116,6 +118,10 @@ body{
     height: 50px;
     margin-top: 30px;
     width: 100%;
+}
+.btn:hover{
+    opacity: .5;
+    transition: .5s ease-in-out;
 }
 
 /* why us */
@@ -134,6 +140,9 @@ body{
 footer .attribution {
     color: #2AB2AF;
 
+}
+.attribution a{
+    color: #2AB2AF;
 }
 
 /*Media for tablets*/
