@@ -79,7 +79,7 @@ main .bottom{
 .bottom .price, .bottom .why {
     width: auto;
 }
-main.price {
+main .price {
     background: var(--lightseagreen);
     padding-top: 30px;
     padding-bottom: 25px;
