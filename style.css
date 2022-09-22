@@ -29,7 +29,7 @@ body{
     margin: 0%;
 }
 
-.container {
+main {
    
     background-color: var(--white);
     border-radius: 5px;
@@ -48,7 +48,7 @@ body{
     padding-right: 25px;
 }
 /*Header Section*/
-.container .main-h .primary {
+main .main-h .primary {
     color: var(--lightergreen);
     font-size: 20px;
     font-weight: 700;
@@ -73,13 +73,13 @@ body{
 
 /* Price Section*/
 
-.container .bottom{
+main .bottom{
     display: block;
 }
 .bottom .price, .bottom .why {
     width: auto;
 }
-.container .price {
+main.price {
     background: var(--lightseagreen);
     padding-top: 30px;
     padding-bottom: 25px;
@@ -150,7 +150,7 @@ footer .attribution {
 
 @media screen and (min-width: 768px) and (
     max-width: 992px){
-        .container {
+       main{
             margin-left: 80px;
             margin-right: 80px;
         }
@@ -161,12 +161,12 @@ footer .attribution {
     }
 /*media for desktop*/
     @media screen and (min-width: 992px){
-        .container{
+        main{
             margin-top: 160px;
             width: 630px;
         }
 
-        .container .main-h .primary{
+        main .main-h .primary{
             font-size: 30px;
 
         }
@@ -178,7 +178,7 @@ footer .attribution {
             font-size: 17px;
         }
 
-        .container .bottom{
+       main .bottom{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
