@@ -34,27 +34,19 @@ Users should be able to:
 
 ## My process
 I started with HTML before styling.
-I was able to learn how to style each div.
-
+I was able to learn how to style e
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-
-### What I learned
-
-I learnt how to divide a ccontainer and also learnt how to position my Div elements using CSS
-
-
-### Continued development
-
-I want to keep focusing on my CSS abilities, Page layout abilities still needs more work.
+HTML & CSS 
+- 
 
 
 
 
+``
 ## Author
+  XO
 
+- Frontend Mentor - [@andex23]
+- Twitter - [@mrlessthanzero](https://www.twitter.com/mrrlessthanzero)
 
-- Frontend Mentor - [@andex23](https://www.frontendmentor.io/profile/yourusername)
